@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cms-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cms-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cms-core-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cms-core-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cms-core-persistent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cms-core-persistent/src/main/resources/generatorConfig.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/cms-inner" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cms-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cms-web/src/main/webapp/ace" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/cms-web/src/main/webapp/resources/plugins/attention" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/cms-web/src/main/webapp/resources/plugins/echarts" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/cms-web/src/main/webapp/resources/plugins/fhform" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/cms-web/src/main/webapp/resources/plugins/tab" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/cms-web/src/main/webapp/resources/plugins/ueditor" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/cms-web/src/main/webapp/resources/plugins/uploadify" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/cms-web/src/main/webapp/resources/plugins/websocketInstantMsg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/cms-web/src/main/webapp/resources/plugins/webuploader" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/cms-web/src/main/webapp/resources/plugins/zTree" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/cms-web/src/main/webapp/resources/plugins/zoomimage" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/cms-web/src/main/webapp/resources/static" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/cms-web/src/main/webapp/resources/static/ace/assets" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/core-inner" charset="UTF-8" />
+  </component>
+</project>

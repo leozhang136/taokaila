@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cms.iml" filepath="$PROJECT_DIR$/cms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cms-common/cms-common.iml" filepath="$PROJECT_DIR$/cms-common/cms-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cms-core/cms-core.iml" filepath="$PROJECT_DIR$/cms-core/cms-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cms-core-api/cms-core-api.iml" filepath="$PROJECT_DIR$/cms-core-api/cms-core-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cms-core-common/cms-core-common.iml" filepath="$PROJECT_DIR$/cms-core-common/cms-core-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cms-core-persistent/cms-core-persistent.iml" filepath="$PROJECT_DIR$/cms-core-persistent/cms-core-persistent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cms-inner/cms-inner.iml" filepath="$PROJECT_DIR$/cms-inner/cms-inner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cms-web/cms-web.iml" filepath="$PROJECT_DIR$/cms-web/cms-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core-inner/core-inner.iml" filepath="$PROJECT_DIR$/core-inner/core-inner.iml" />
+    </modules>
+  </component>
+</project>
