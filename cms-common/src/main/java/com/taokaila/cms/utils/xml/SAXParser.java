@@ -55,7 +55,7 @@ public class SAXParser {
     public static void main(String[] args) {
         InputStream is= null;
         try {
-            is=new FileInputStream(new File("E:\\test.xml"));
+            is=new FileInputStream(new File("E:\\IdeaProjects\\taokaila\\test.xml"));
             Node data =parseXml(is,"hits");
             System.out.println(data);
             if(data != null){

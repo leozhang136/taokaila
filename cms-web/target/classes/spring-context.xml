@@ -13,7 +13,9 @@
        http://www.springframework.org/schema/task/spring-task.xsd">
 
 
-       <context:property-placeholder location="classpath:/properties/global.properties" ignore-unresolvable="true"/>
+       <context:property-placeholder location="classpath:/properties/global.properties" ignore-unresolvable="true" ignore-resource-not-found="true"/>
+
+       <context:property-placeholder location="classpath:/properties/config.properties" ignore-unresolvable="true" ignore-resource-not-found="true"/>
 
        <context:component-scan base-package="com.taokaila.cms">
               <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>

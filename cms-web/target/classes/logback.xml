@@ -6,7 +6,7 @@
     <appender name="logfile" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <File>/data/appLogs/agri/front/cms/cms-web/cms-web</File>
         <encoder>
-            <pattern>%date %level [%thread] [%tracelogid]  %logger{10} [%file:%line] %msg%n</pattern>
+            <pattern>%date %level [%thread] [%ip] [%tracelogid]  %logger{10} [%file:%line] %msg%n</pattern>
             <charset>UTF-8</charset>
         </encoder>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
@@ -30,6 +30,6 @@
     <logger name="org.springframework.web.context.support.XmlWebApplicationContext" level="INFO"/>
     <logger name="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping" level="INFO"/>
     <root level="INFO">
-        <appender-ref ref="stdout"/>
+        <appender-ref ref="logfile"/>
     </root>
 </configuration>

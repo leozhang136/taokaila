@@ -1,6 +1,7 @@
 package com.taokaila.cms.inner.service;
 
 import com.taokaila.cms.system.UserService;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -11,6 +12,7 @@ import org.springframework.stereotype.Component;
  * Time: 22:14
  * To change this template use File | Settings | Editor | File and Code Templates.
  */
+@Slf4j
 @Component
 public class InnerTestService {
 
@@ -19,6 +21,7 @@ public class InnerTestService {
 
     public String getTestInfo(String name){
         String userInfo = userService.getUserInfo();
+        log.info("InnerTestService.name==>"+name);
         return "你的要的名字是："+userInfo;
     }
 }

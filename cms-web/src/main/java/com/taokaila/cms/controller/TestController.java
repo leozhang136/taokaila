@@ -1,5 +1,6 @@
 package com.taokaila.cms.controller;
 
+import com.taokaila.cms.constant.ConfigBean;
 import com.taokaila.cms.inner.service.InnerTestService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,10 +22,14 @@ public class TestController {
     @Autowired
     private InnerTestService innerTestService;
 
+    @Autowired
+    private ConfigBean configBean;
+
     @RequestMapping(value = "test")
     public String test(){
         String info = innerTestService.getTestInfo("zhang san");
-        System.out.println("info===>"+info);
+        System.out.println("info===>" + info);
+        log.info("thread city size "+configBean.getThreadCitySize());
         log.info("info===>"+info);
         return "system/index/main";
     }

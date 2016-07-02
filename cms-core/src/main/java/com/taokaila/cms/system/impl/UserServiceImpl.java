@@ -3,6 +3,7 @@ package com.taokaila.cms.system.impl;
 import com.taokaila.cms.core.entity.TestUser;
 import com.taokaila.cms.core.mapper.TestUserMapper;
 import com.taokaila.cms.system.UserService;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

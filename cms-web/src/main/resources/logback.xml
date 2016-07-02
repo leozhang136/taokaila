@@ -6,7 +6,7 @@
     <appender name="logfile" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <File>${logback.logpath}cms-web/cms-web</File>
         <encoder>
-            <pattern>%date %level [%thread] [%tracelogid]  %logger{10} [%file:%line] %msg%n</pattern>
+            <pattern>%date %level [%thread] [%ip] [%tracelogid]  %logger{10} [%file:%line] %msg%n</pattern>
             <charset>UTF-8</charset>
         </encoder>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
